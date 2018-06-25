@@ -1,0 +1,20 @@
+{
+  "model_config":{
+    "keep_drop_out":0.5,
+    "max_x1_len": 30,
+    "max_x2_len": 30,
+    "kernal_size": 3,
+    "kernal_count": 256,
+    "x1_max_pool_size": 2,
+    "x2_max_pool_size": 2,
+    "learning_rate":0.001,
+    "decay_steps": 10,
+    "decay_rate": 0.1,
+    "optimizer": "Adam",
+    "clip_gradients":0.5,
+    "embedding_size":300
+  },
+  "word_dict":"../data/word_dict.txt",
+  "embedding_path":"../data/vectors.txt",
+  "word_dim_size":300
+}
